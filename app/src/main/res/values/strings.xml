@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">Termodinamică</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="developed">Developed by Dragoș Cocîrlea</string>
+    <string name="capitolul_unu">Energia internă</string>
+    <string name="capitolul_doi">Lucrul mecanic</string>
+    <string name="capitolul_trei">Căldura</string>
+    <string name="capitolul_patru">Principiul întâi</string>
+    <string name="capitolul_cinci">Motoare termice</string>
+    <string name="capitolul_sase">Randamentul</string>
+    <string name="capitolul_sapte">Principiul al doilea</string>
+    <string name="introducere">Termodinamica este ramura comună a fizicii si a chimiei care se ocupă cu studiul macroscopic al fenomenelor, de orice natură, în care are loc un transfer de energie sub forma de căldură și lucru mecanic. Numele este derivat din limba greacă (θέρμη sau therme = căldură și δύναμις sau dynamis = forță) și a fost creat de lordul Kelvin care a formulat și prima definiție a termodinamicii.</string>
+    <string name="cap_unu_2">•Conform definiţiei, \n<b>energia internă U a unui sistem termodinamic este egală cu suma energiilor cinetice ale mişcării moleculelor lui şi ale energiilor potenţiale de interacţiune dintre ele.</b></string>
+    <string name="cap1_3">•Legea lui Joule spune că: <b>energia internă a gazului ideal la temperatură constantă nu depinde de volum.</b></string>
+    <string name="cap1_4">•Ecuaţia precedentă este numită <b>ecuaţia calorică de stare a gazului ideal monoatomic</b>. \n•Variaţia energiei interne în conformitate cu această ecuație este egală cu:</string>
+    <string name="cap2_7">•Adunând algebric aceste două arii, obţinem aria figurii limitate de graficul ciclului, luată cu semnul plus. Astfel, <b>lucrul gazului într-un proces ciclic este diferit de zero</b>.</string>
+    <string name="cap2_6">•Prin urmare, lucrul efectuat de gaz la trecerea dintr-o stare în alta depinde nu numai de aceste stări, ci şi de procesul (calea) prin care gazul a ajuns din starea iniţială în cea finală. Mărimile care posedă această proprietate se numesc <i>mărimi de proces</i>. Astfel, <b>lucrul gazului la variaţia volumului său este o mărime de proces</b>.</string>
+    <string name="cap2_8">•Dacă ciclul este parcurs în sens antiorar (în sens trigonometric), atunci curba efg ce corespunde dilatării se află sub curba ghe ce corespunde comprimării.</string>
+    <string name="cap2_9">Adunând algebric ariile de sub aceste curbe cu semnele corespunzătoare, obţinem aria figurii limitate de grafic, luată cu semnul minus. Lucrul gazului în acest proces ciclic este negativ.</string>
+    <string name="cap3_1"><b>• Această modalitate de transmisie a energiei interne de la un corp la altul, de asemenea sub formă de energie internă, se numeşte schimb de căldură, iar cantitatea de energie transmisă prin schimb de căldură a fost numită cantitate de căldură.</b></string>
+    <string name="cap3_3"><b>•Căldura specifică a substanţei este egală cu raportul dintre cantitatea de căldură primită de corpul din această substanţă şi produsul masei lui la variaţia temperaturii.</b></string>
+    <string name="cap3_4"><b>•Căldura molară este egală cu raportul dintre cantitatea de căldură transmisă substanţei şi produsul cantităţii de substanţă cu variaţia temperaturii.</b></string>
+    <string name="cap3_5"><b>•Capacitate calorică (termică) a corpului este egală cu raportul dintre cantitatea de căldură transmisă corpului şi variaţia temperaturii lui.</b></string>
+    <string name="cap3_6">•Cele trei mărimi de mai sus se numesc <b>coeficienți calorici</b> și comparandu-le observăm că:</string>
+    <string name="cap4_1">•Legităţile care permit descrierea cantitativă a transformărilor de acest gen au fost stabilite în anii ’40 ai secolului al XIX-lea în cercetările realizate de fizicianul german Julius Robert Mayer, fizicianul englez James Joule şi fizicianul german Hermann Helm holtz. Pe baza lor a fost formulată legea conservării şi transformării energiei, care include şi fenomenele termice, cunoscută în prezent sub denumirea de <b>principiul întâi al termodinamicii</b>.</string>
+    <string name="cap4_2">•<b>Cantitatea de căldură primită de sistem este egală cu suma dintre variaţia energiei interne a sistemului şi lucrul mecanic efectuat de acesta asupra corpurilor exterioare.</b></string>
+    <string name="cap4_4">•Astfel, <i><b>în transformarea izocoră cantitatea de căldură transmisă sistemului este egală cu variaţia energiei sale interne</b></i>.</string>
+    <string name="cap4_7">•Aici <b>se observă comoditatea utilizării căldurilor molare – ele nu depind de natura gazului, ci doar de numărul de atomi din moleculele lui</b>.</string>
+    <string name="cap4_8">•Astfel, <i><b>în transformarea izotermă cantitatea de căldură primită de gazul ideal este egală cu lucrul efectuat de acesta</b></i>.</string>
+    <string name="cap4_13">•Această relaţie ne permite să stabilim sensul fizic al constantei universale a gazelor R. Rezultă că pentru ν = 1 mol şi ∆T = 1 K lucrul Lp este numeric egal cu R. Prin urmare \n<b>constanta universală a gazelor R este numeric egală cu lucrul efectuat de 1 mol de gaz ideal la încălzirea izobară a acestuia cu 1 K</b>.</string>
+    <string name="cap5_2">Astfel: \n1 &#160;&#160;&#160;&#160;&#160;-&#160; se deschide supapa de admisie\n<b>1-2 &#160;&#160;&#160; ADMISIA CARBURANTULUI (I)</b>\n2 &#160;&#160;&#160;&#160;&#160;-&#160; se închide supapa de admisie\n<b>2-3 &#160;&#160;&#160; COMPRESIA (II)</b>\n3 &#160;&#160;&#160;&#160;&#160;-&#160; bujia dă o scânteie\n<b>3-4-5 ARDEREA ȘI DETENTA (III)</b>\n5 &#160;&#160;&#160;&#160;&#160;-&#160; se deschide supapa de evacuare\n<b>5-2-1 EVACUAREA (IV)</b>\n1 &#160;&#160;&#160;&#160;&#160;-&#160; se închide supapa de evacuare</string>
+    <string name="cap5_3">Astfel: \n1 &#160;&#160;&#160;&#160;&#160;-&#160; se deschide supapa de admisie\n<b>1-2 &#160;&#160;&#160; ADMISIA AERULUI (I)</b>\n2 &#160;&#160;&#160;&#160;&#160;-&#160; se închide supapa de admisie\n<b>2-3 &#160;&#160;&#160; COMPRESIA (II)</b>\n3 &#160;&#160;&#160;&#160;&#160;-&#160; motorina este injectată și se autoaprinde\n<b>3-4-5 ARDEREA ȘI DETENTA (III)</b>\n5 &#160;&#160;&#160;&#160;&#160;-&#160; se deschide supapa de evacuare\n<b>5-2-1 EVACUAREA (IV)</b>\n1 &#160;&#160;&#160;&#160;&#160;-&#160; se închide supapa de evacuare</string>
+
+</resources>
