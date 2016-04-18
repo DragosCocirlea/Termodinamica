@@ -1,0 +1,50 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             xmlns:tools="http://schemas.android.com/tools"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             android:layout_marginTop="50dp"
+             android:orientation="vertical"
+             tools:context="layout.MainFragment" >
+
+    <ImageView
+    android:layout_width="wrap_content"
+    android:layout_height="250dp"
+    android:layout_marginTop="50dp"
+    android:src="@drawable/big_logo"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Salut!"
+        android:layout_marginTop="370dp"
+        android:layout_centerHorizontal="true"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Aceasta aplicație a fost construită pentru a te ajuta "
+        android:layout_marginTop="390dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_centerHorizontal="true"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" să înveți mai usor capitolul termodinamică."
+        android:layout_marginTop="405dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_centerHorizontal="true"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Mult succes!"
+        android:layout_marginTop="455dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_centerHorizontal="true"/>
+
+
+</RelativeLayout>

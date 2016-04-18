@@ -1,0 +1,199 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            android:layout_marginTop="56dp"
+            tools:context="layout.CapitolulUnuFragment">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            card_view:cardCornerRadius="3dp"
+            card_view:cardElevation="3dp">
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="8dp"
+                    android:textStyle="bold"
+                    android:textSize="18sp"
+                    android:text="a. Energia internă – mărime de stare "/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginRight="8dp"
+                    android:layout_marginBottom="4dp"
+                    android:textSize="14sp"
+                    android:text="@string/cap_unu_2"
+                    android:layout_gravity="center"/>
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp"
+                    android:src="@drawable/cap1_1"
+                    android:layout_gravity="center"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginRight="8dp"
+                    android:layout_marginTop="24dp"
+                    android:layout_marginBottom="4dp"
+                    android:textSize="14sp"
+                    android:text="•Variaţia energiei interne a sistemului la trecerea din starea iniţială 1, caracterizată de parametrii V1 şi T1, în starea finală 2, caracterizată de parametrii V2 şi T2, nu depinde de calea (procesul) de trecere între aceste stări şi este egală cu:"/>
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="26dp"
+                    android:src="@drawable/cap1_2"
+                    android:layout_gravity="center"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginRight="8dp"
+                    android:layout_marginTop="24dp"
+                    android:textSize="14sp"
+                    android:textStyle="bold"
+                    android:text="•Procesul în care starea finală coincide cu cea iniţială se numeşte proces ciclic (transformare ciclică)."/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginRight="8dp"
+                    android:layout_marginBottom="4dp"
+                    android:textSize="14sp"
+                    android:text="•Cu alte cuvinte, în urma unui proces ciclic sistemul revine la starea sa iniţială. Din formula precedentă rezultă că variaţia energiei interne într-un proces ciclic este nulă:"/>
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp"
+                    android:src="@drawable/cap1_3"
+                    android:layout_gravity="center"/>
+
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginBottom="8dp"
+            card_view:cardCornerRadius="3dp"
+            card_view:cardElevation="3dp">
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="8dp"
+                    android:textStyle="bold"
+                    android:textSize="18sp"
+                    android:text="b. Energia internă a gazului ideal monoatomic"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginRight="8dp"
+                    android:layout_marginBottom="4dp"
+                    android:textSize="14sp"
+                    android:text="@string/cap1_3"/>
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="35dp"
+                    android:src="@drawable/cap1_4"
+                    android:layout_gravity="center"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginTop="24dp"
+                    android:layout_marginRight="8dp"
+                    android:layout_marginBottom="4dp"
+                    android:textSize="14sp"
+                    android:text="•În cadrul teoriei cinetico-moleculare a gazului ideal a fost obţinută expresia energiei cinetice medii a mişcării de translaţie a moleculei: "/>
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="45dp"
+                    android:src="@drawable/cap1_5"
+                    android:layout_gravity="center"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginTop="24dp"
+                    android:layout_marginRight="8dp"
+                    android:textSize="14sp"
+                    android:text="•Pe de altă parte, conform definiţiei, energia cinetică medie a unei molecule este egală cu suma energiilor cinetice ale tuturor moleculelor, împărţită la numărul acestora:"/>
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="45dp"
+                    android:src="@drawable/cap1_6"
+                    android:layout_gravity="center"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginTop="24dp"
+                    android:layout_marginRight="8dp"
+                    android:layout_marginBottom="4dp"
+                    android:textSize="14sp"
+                    android:text="•Din cele trei relații de mai sus obținem:"/>
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="45dp"
+                    android:src="@drawable/cap1_7"
+                    android:layout_gravity="center"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginTop="24dp"
+                    android:layout_marginRight="8dp"
+                    android:layout_marginBottom="4dp"
+                    android:textSize="14sp"
+                    android:text="•Numărul de molecule N = ν*NA, unde ν este cantitatea de substanţă (ν = m/μ) şi NA – constanta (numărul) lui Avogadro.Dar NA*k = R este constanta universală a gazelor. Obținem:"/>
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="45dp"
+                    android:src="@drawable/cap1_8"
+                    android:layout_gravity="center"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginTop="24dp"
+                    android:layout_marginRight="8dp"
+                    android:layout_marginBottom="4dp"
+                    android:textSize="14sp"
+                    android:text="@string/cap1_4"/>
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="45dp"
+                    android:src="@drawable/cap1_9"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="4dp"/>
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+    </LinearLayout>
+</ScrollView>

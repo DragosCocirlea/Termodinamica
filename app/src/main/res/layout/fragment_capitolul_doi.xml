@@ -1,0 +1,275 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            android:layout_marginTop="56dp"
+            tools:context="layout.CapitolulDoiFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            card_view:cardCornerRadius="3dp"
+            card_view:cardElevation="3dp">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="8dp"
+                    android:textSize="14sp"
+                    android:text="•Să analizăm experimentul următor. Sub pistonul blocat al unui cilindru se află aer la presiune ridicată, pe piston – cîteva corpuri (fig. 2.1, a). După deblocarea pistonului, aerul din cilindru se dilată şi pistonul se ridică în sus împreună cu corpurile de pe el (fig. 2.1, b). Acest experiment arată că gazul, dilatîndu-se, efectuează lucru mecanic pe seama energiei sale interne. În consecinţă, energia potenţială a pistonului se măreşte."/>
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:src="@drawable/cap2_1"
+                    android:layout_gravity="center"/>
+            </LinearLayout>
+
+
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginBottom="8dp"
+            card_view:cardCornerRadius="3dp"
+            card_view:cardElevation="3dp">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="8dp"
+                    android:textSize="14sp"
+                    android:text="•Să deducem expresia pentru lucrul efectuat de gaz la dilatare, care se va considera foarte lentă, astfel încît procesul de dilatare să poată fi un proces de echilibru. Forţa ce acţionează asupra pistonului este forţa de presiune F egală cu produsul dintre presiunea gazului p şi aria pistonului S, adică F = p · S. La dilatare presiunea variază, deci variază şi forţa de presiune. "/>
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:src="@drawable/cap2_2"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="8dp"
+                    android:textSize="14sp"
+                    android:text="•Admitem că deplasarea pistonului ∆h este foarte mică, astfel încât variaţia forţei de presiune să poată fi neglijată. În acest caz este vorba de ceea ce se numeşte lucru elementar şi se calculează ca lucrul unei forţe constante de aceeaşi direcţie şi sens cu deplasarea (fig. 2.2). Avem ∆L = F · ∆h = p · S · ∆h. După cum se vede din figură, produsul S · ∆h = ∆V este variaţia volumului gazului. Expresia lucrului elementar al forţei de presiune a gazului are forma: "/>
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="35dp"
+                    android:src="@drawable/cap2_3"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="8dp"
+                    android:textSize="14sp"
+                    android:text="• Această relaţie arată că la dilatare (∆V > 0) gazul efectuează un lucru pozitiv, denumit şi lucru cedat în exterior, iar atunci când este comprimat (0 > ∆V), efectuează un lucru negativ, adică primit din exterior. "/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="8dp"
+                    android:textSize="14sp"
+                    android:text="• Din formula precedentă observăm că gazul efectuează lucrul numai în cazul în care volumul său variază (∆L ≠ 0 numai dacă ∆V ≠ 0). În transformarea izocoră (V = const., ∆V = 0), lucrul gazului este nul. "/>
+
+            </LinearLayout>
+
+
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginBottom="8dp"
+            card_view:cardCornerRadius="3dp"
+            card_view:cardElevation="3dp">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="8dp"
+                    android:textSize="14sp"
+                    android:text="•Să analizăm mai întâi cazul în care presiunea rămâne constantă, adică dilatarea izobară a gazului, construind graficul respectiv pe diagramă. "/>
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:src="@drawable/cap2_4"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="8dp"
+                    android:textSize="14sp"
+                    android:text="•Observăm că lucrul gazului este numeric egal cu aria dreptunghiului ale cărui laturi sunt: graficul izobarei, porţiunea de abscisă corespunzătoare volumelor V1 şi V2  şi segmentele de dreaptă ce unesc capetele izobarei cu punctele respective de pe axa volumelor.  "/>
+            </LinearLayout>
+
+
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginBottom="8dp"
+            card_view:cardCornerRadius="3dp"
+            card_view:cardElevation="3dp">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="8dp"
+                    android:textSize="14sp"
+                    android:text="•La calcularea lucrului gazului când presiunea variază se aplică metoda deja cunoscută. Variaţia totală a volumului (V2 − V1) se împarte într-un număr mare de porţiuni mici ∆Vi , astfel încît la variaţia ∆Vi presiunea Pi  să rămînă, efectiv, constantă.  "/>
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="175dp"
+                    android:src="@drawable/cap2_5"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="8dp"
+                    android:textSize="14sp"
+                    android:text="•Lucrul efectuat de gaz la această variaţie a volumului, după cum se vede din figură este numeric egal cu aria fâşiei înguste cu lăţimea ∆Vi şi înălţimea Pi (în figură are culoare închisă). Lucrul total se obţine prin însumarea lucrurilor elementare. Adunând ariile tuturor fâşiilor înguste, obţinem aria de sub grafic. Prin urmare, în cazul presiunii variabile, lucrul gazului se determină în mod grafic, ca şi în cazul presiunii constante, fiind numeric egal cu aria figurii de sub grafic.  "/>
+            </LinearLayout>
+
+
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginBottom="8dp"
+            card_view:cardCornerRadius="3dp"
+            card_view:cardElevation="3dp">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="8dp"
+                    android:textSize="14sp"
+                    android:text="•Interpretarea grafică a lucrului gazului permite să stabilim o proprietate importantă a acestuia. Admitem că gazul trece din starea iniţială 1 în starea finală 2 pe două căi diferite – o dată pe calea 1a2 şi a doua oară pe calea 1b2. "/>
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="175dp"
+                    android:src="@drawable/cap2_6"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="8dp"
+                    android:textSize="14sp"
+                    android:text="•După cum se vede din figură, ariile de sub grafice sunt diferite. Deci lucrul efectuat de gaz în aceste două procese, de asemenea, diferă, anume L(1a2) > L(1b2).  "/>
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginBottom="8dp"
+            card_view:cardCornerRadius="3dp"
+            card_view:cardElevation="3dp">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="8dp"
+                    android:textSize="14sp"
+                    android:text="@string/cap2_6"/>
+
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginBottom="8dp"
+            card_view:cardCornerRadius="3dp"
+            card_view:cardElevation="3dp">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="8dp"
+                    android:textSize="14sp"
+                    android:text="•Lucrul gazului în procesul ciclic este egal cu suma lucrurilor pe porţiunile lui: L=L(abc)+L(cda). "/>
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="175dp"
+                    android:src="@drawable/cap2_7"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="8dp"
+                    android:textSize="14sp"
+                    android:text="@string/cap2_7"/>
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginBottom="8dp"
+            card_view:cardCornerRadius="3dp"
+            card_view:cardElevation="3dp">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="8dp"
+                    android:textSize="14sp"
+                    android:text="@string/cap2_8"/>
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="175dp"
+                    android:src="@drawable/cap2_8"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="8dp"
+                    android:textSize="14sp"
+                    android:text="@string/cap2_9"/>
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+    </LinearLayout>
+
+</ScrollView>

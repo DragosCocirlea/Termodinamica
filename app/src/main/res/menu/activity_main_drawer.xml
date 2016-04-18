@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single"
+           android:id="@+id/menuTop">
+        <item
+            android:id="@+id/capitolul_unu"
+            android:icon="@drawable/numeric_one"
+            android:title="@string/capitolul_unu"/>
+        <item
+            android:id="@+id/capitolul_doi"
+            android:icon="@drawable/numeric_two"
+            android:title="@string/capitolul_doi"/>
+        <item
+            android:id="@+id/capitolul_trei"
+            android:icon="@drawable/numeric_three"
+            android:title="@string/capitolul_trei"/>
+        <item
+            android:id="@+id/capitolul_patru"
+            android:icon="@drawable/numeric_four"
+            android:title="@string/capitolul_patru"/>
+        <item
+            android:id="@+id/capitolul_cinci"
+            android:icon="@drawable/numeric_five"
+            android:title="@string/capitolul_cinci"/>
+        <item
+            android:id="@+id/capitolul_sase"
+            android:icon="@drawable/numeric_six"
+            android:title="@string/capitolul_sase"/>
+        <item
+            android:id="@+id/capitolul_sapte"
+            android:icon="@drawable/numeric_seven"
+            android:title="@string/capitolul_sapte"/>
+    </group>
+
+    <group android:checkableBehavior="none"
+           android:id="@+id/menuBottom">
+        <item
+            android:id="@+id/despre"
+            android:icon="@drawable/information_outline"
+            android:title="Despre"/>
+        <item
+            android:id="@+id/feedback"
+            android:icon="@drawable/send"
+            android:title="Feedback"/>
+    </group>
+
+</menu>

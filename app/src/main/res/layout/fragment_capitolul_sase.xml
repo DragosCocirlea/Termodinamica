@@ -1,0 +1,98 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            android:layout_marginTop="56dp"
+            tools:context="layout.CapitolulSaseFragment">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            card_view:cardCornerRadius="3dp"
+            card_view:cardElevation="3dp">
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="8dp"
+                    android:textSize="14sp"
+                    android:text="•Un motor termic funcţionează cu atât mai eficient, cu cât el transformă în lucru mecanic o parte mai mare din cantitatea de căldură Q1 primită de agentul de lucru de la încălzitor. Astfel, eficacitatea motorului termic este caracterizată de mărimea egală cu:"
+                    android:layout_gravity="center"/>
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="60dp"
+                    android:src="@drawable/cap6_1"
+                    android:layout_gravity="center"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="8dp"
+                    android:textSize="14sp"
+                    android:text="@string/cap6_2"/>
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            card_view:cardCornerRadius="3dp"
+            card_view:cardElevation="3dp">
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="8dp"
+                    android:textStyle="bold"
+                    android:textSize="18sp"
+                    android:text="Ciclul Carnot. Valoarea maximă a randamentului"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="8dp"
+                    android:textSize="14sp"
+                    android:text="•Fizicianul francez Nicolas Léonard Sadi Carnot, a propus un ciclu (diagramă de funcţionare) al unui motor ideal, cunoscut sub denumirea de ciclul Carnot. Acesta este constituit din două transformări izoterme şi două transformări adiabatice. "
+                    android:layout_gravity="center"/>
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="230dp"
+                    android:src="@drawable/cap6_2"
+                    android:layout_gravity="center"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="8dp"
+                    android:textSize="14sp"
+                    android:text="•În conformitate cu definiţia randamentului și efectuându-se calculele respective pentru randamentul ciclului Carnot (reversibil) cu gaz ideal, se obţine expresia: "/>
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="60dp"
+                    android:src="@drawable/cap6_3"
+                    android:layout_gravity="center"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="8dp"
+                    android:textSize="14sp"
+                    android:text="•S-a demonstrat, de asemenea, că formula precedentă exprimă valoarea maximă a randamentului motorului termic care ar funcţiona cu surse de căldură având temperaturile T1 şi T2, adică pentru temperaturile date orice alt ciclu are un randament mai mic decît ciclul Carnot.  "/>
+
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+
+    </LinearLayout>
+</ScrollView>
