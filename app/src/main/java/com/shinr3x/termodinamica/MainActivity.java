@@ -31,6 +31,8 @@ public class MainActivity extends AppCompatActivity
 
     int id, oldId = 0;
 
+    private MainFragment.OnFragmentInteractionListener mListener;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
